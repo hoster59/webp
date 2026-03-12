@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Name | Our Activities</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="bg-white shadow-md fixed w-full z-10 top-0">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600">BrandLogo</h1>
+            <div class="space-x-4">
+                <a href="#about" class="hover:text-blue-500">About</a>
+                <a href="#activities" class="hover:text-blue-500">Activities</a>
+                <a href="#projects" class="hover:text-blue-500">Projects</a>
+                <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Get a Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="pt-32 pb-20 px-4 text-center max-w-4xl mx-auto">
+        <h2 class="text-5xl font-extrabold mb-6 text-gray-900">Building the Future, Today.</h2>
+        <p class="text-lg text-gray-600 mb-8">
+            We are a dedicated company specializing in [Industry Name]. Our mission is to deliver top-tier services and build lasting relationships with our clients through quality, trust, and innovation.
+        </p>
+    </section>
+
+    <section id="activities" class="bg-white py-20 px-4">
+        <div class="max-w-6xl mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-12">What We Do</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 border rounded-lg shadow-sm">
+                    <h4 class="text-xl font-bold mb-3 text-blue-600">Activity One</h4>
+                    <p class="text-gray-600">Brief description of the first main service or activity your company provides.</p>
+                </div>
+                <div class="p-6 border rounded-lg shadow-sm">
+                    <h4 class="text-xl font-bold mb-3 text-blue-600">Activity Two</h4>
+                    <p class="text-gray-600">Brief description of the second main service or activity your company provides.</p>
+                </div>
+                <div class="p-6 border rounded-lg shadow-sm">
+                    <h4 class="text-xl font-bold mb-3 text-blue-600">Activity Three</h4>
+                    <p class="text-gray-600">Brief description of the third main service or activity your company provides.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 px-4 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold mb-4">Our Projects & Partnerships</h3>
+                <p class="text-gray-500">A glimpse into our recent work and the trusted partners we collaborate with.</p>
+            </div>
+            
+            <div class="relative w-full overflow-hidden">
+                <div class="flex gap-6 animate-scroll" id="projectScroll">
+                    <!-- Project 1 -->
+                    <div class="project-card flex-shrink-0 w-72 cursor-pointer transition-all duration-300 group" data-description="This is a detailed description of our first project. We successfully delivered a comprehensive solution that exceeded client expectations and delivered measurable results.">
+                        <div class="relative h-64 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg overflow-hidden shadow-md group-hover:shadow-xl transition-shadow">
+                            <div class="w-full h-full flex items-center justify-center bg-blue-500 text-white text-4xl font-bold">
+                                Project 1
+                            </div>
+                        </div>
+                        <h4 class="text-xl font-bold mt-4 text-gray-900">Project Title 1</h4>
+                        <p class="text-gray-600 text-sm mt-2">Short description</p>
+                        <p class="description-text text-gray-700 mt-3 text-sm hidden">This is a detailed description of our first project. We successfully delivered a comprehensive solution that exceeded client expectations and delivered measurable results.</p>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card flex-shrink-0 w-72 cursor-pointer transition-all duration-300 group" data-description="Our second partnership opened new markets and created lasting value for both organizations. This collaboration showcases our ability to adapt and innovate.">
+                        <div class="relative h-64 bg-gradient-to-br from-green-400 to-green-600 rounded-lg overflow-hidden shadow-md group-hover:shadow-xl transition-shadow">
+                            <div class="w-full h-full flex items-center justify-center bg-green-500 text-white text-4xl font-bold">
+                                Project 2
+                            </div>
+                        </div>
+                        <h4 class="text-xl font-bold mt-4 text-gray-900">Project Title 2</h4>
+                        <p class="text-gray-600 text-sm mt-2">Short description</p>
+                        <p class="description-text text-gray-700 mt-3 text-sm hidden">Our second partnership opened new markets and created lasting value for both organizations. This collaboration showcases our ability to adapt and innovate.</p>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card flex-shrink-0 w-72 cursor-pointer transition-all duration-300 group" data-description="The third initiative demonstrated our commitment to excellence. Through strategic planning and execution, we achieved outstanding outcomes that set new industry standards.">
+                        <div class="relative h-64 bg-gradient-to-br from-purple-400 to-purple-600 rounded-lg overflow-hidden shadow-md group-hover:shadow-xl transition-shadow">
+                            <div class="w-full h-full flex items-center justify-center bg-purple-500 text-white text-4xl font-bold">
+                                Project 3
+                            </div>
+                        </div>
+                        <h4 class="text-xl font-bold mt-4 text-gray-900">Project Title 3</h4>
+                        <p class="text-gray-600 text-sm mt-2">Short description</p>
+                        <p class="description-text text-gray-700 mt-3 text-sm hidden">The third initiative demonstrated our commitment to excellence. Through strategic planning and execution, we achieved outstanding outcomes that set new industry standards.</p>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card flex-shrink-0 w-72 cursor-pointer transition-all duration-300 group" data-description="Our most recent collaboration brought innovative solutions to complex challenges. This partnership reinforces our position as a leader in the industry.">
+                        <div class="relative h-64 bg-gradient-to-br from-orange-400 to-orange-600 rounded-lg overflow-hidden shadow-md group-hover:shadow-xl transition-shadow">
+                            <div class="w-full h-full flex items-center justify-center bg-orange-500 text-white text-4xl font-bold">
+                                Project 4
+                            </div>
+                        </div>
+                        <h4 class="text-xl font-bold mt-4 text-gray-900">Project Title 4</h4>
+                        <p class="text-gray-600 text-sm mt-2">Short description</p>
+                        <p class="description-text text-gray-700 mt-3 text-sm hidden">Our most recent collaboration brought innovative solutions to complex challenges. This partnership reinforces our position as a leader in the industry.</p>
+                    </div>
+
+                    <!-- Duplicate for seamless loop -->
+                    <div class="project-card flex-shrink-0 w-72 cursor-pointer transition-all duration-300 group" data-description="This is a detailed description of our first project. We successfully delivered a comprehensive solution that exceeded client expectations and delivered measurable results.">
+                        <div class="relative h-64 bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg overflow-hidden shadow-md group-hover:shadow-xl transition-shadow">
+                            <div class="w-full h-full flex items-center justify-center bg-blue-500 text-white text-4xl font-bold">
+                                Project 1
+                            </div>
+                        </div>
+                        <h4 class="text-xl font-bold mt-4 text-gray-900">Project Title 1</h4>
+                        <p class="text-gray-600 text-sm mt-2">Short description</p>
+                        <p class="description-text text-gray-700 mt-3 text-sm hidden">This is a detailed description of our first project. We successfully delivered a comprehensive solution that exceeded client expectations and delivered measurable results.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Description Display Area -->
+            <div class="mt-12 p-8 bg-white rounded-lg shadow-md text-center" id="descriptionArea">
+                <p class="text-gray-600 text-sm">Hover over or click a project card to see more details</p>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(calc(-100% / 5));
+            }
+        }
+
+        .animate-scroll {
+            animation: scroll 30s linear infinite;
+        }
+
+        .animate-scroll:hover,
+        .animate-scroll.paused {
+            animation-play-state: paused;
+        }
+
+        .project-card.active {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .project-card {
+                width: 18rem;
+            }
+        }
+    </style>
+
+    <section id="contact" class="bg-blue-600 text-white py-20 px-4">
+        <div class="max-w-3xl mx-auto">
+            <h3 class="text-3xl font-bold mb-6 text-center">Ask for Info or Pricing</h3>
+            <p class="text-center mb-8 text-blue-100">Leave us your details and what you're looking for, and our team will get back to you with a quote.</p>
+            
+            <form class="bg-white rounded-lg shadow-lg p-8 text-gray-800 flex flex-col gap-4">
+                <div>
+                    <label class="block text-sm font-bold mb-2">Full Name</label>
+                    <input type="text" class="w-full border p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="John Doe">
+                </div>
+                <div>
+                    <label class="block text-sm font-bold mb-2">Email Address</label>
+                    <input type="email" class="w-full border p-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="john@example.com">
+                </div>
+                <div>
+                    <label class="block text-sm font-bold mb-2">What do you need a quote for?</label>
+                    <textarea class="w-full border p-2 rounded h-32 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Tell us about your project..."></textarea>
+                </div>
+                <button type="submit" class="bg-blue-600 text-white font-bold py-3 rounded hover:bg-blue-700 transition mt-2">Send Request</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-400 py-6 text-center">
+        <p>&copy; 2026 Company Name. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const projectScroll = document.getElementById('projectScroll');
+        const projectCards = document.querySelectorAll('.project-card');
+        const descriptionArea = document.getElementById('descriptionArea');
+        let isHovered = false;
+
+        // Handle hover and click events
+        projectCards.forEach((card, index) => {
+            // Hover event (desktop)
+            card.addEventListener('mouseenter', () => {
+                isHovered = true;
+                projectScroll.style.animationPlayState = 'paused';
+                updateDescription(card);
+                card.classList.add('active');
+                projectCards.forEach((c, i) => {
+                    if (i !== index) c.classList.remove('active');
+                });
+            });
+
+            // Click event (mobile)
+            card.addEventListener('click', () => {
+                isHovered = !isHovered;
+                if (isHovered) {
+                    projectScroll.style.animationPlayState = 'paused';
+                    updateDescription(card);
+                    card.classList.add('active');
+                    projectCards.forEach((c, i) => {
+                        if (i !== index) c.classList.remove('active');
+                    });
+                } else {
+                    projectScroll.style.animationPlayState = 'running';
+                    card.classList.remove('active');
+                    descriptionArea.innerHTML = '<p class="text-gray-600 text-sm">Hover over or click a project card to see more details</p>';
+                }
+            });
+        });
+
+        // Remove hover state when mouse leaves the scroll area
+        projectScroll.addEventListener('mouseleave', () => {
+            if (window.innerWidth > 768) { // Only on desktop
+                isHovered = false;
+                projectScroll.style.animationPlayState = 'running';
+                projectCards.forEach(card => card.classList.remove('active'));
+                descriptionArea.innerHTML = '<p class="text-gray-600 text-sm">Hover over or click a project card to see more details</p>';
+            }
+        });
+
+        function updateDescription(card) {
+            const description = card.getAttribute('data-description');
+            const title = card.querySelector('h4').textContent;
+            descriptionArea.innerHTML = `
+                <h4 class="text-2xl font-bold mb-4 text-gray-900">${title}</h4>
+                <p class="text-gray-700 text-base leading-relaxed">${description}</p>
+            `;
+        }
+
+        // Handle window resize for responsive behavior
+        window.addEventListener('resize', () => {
+            if (window.innerWidth <= 768 && isHovered) {
+                // On mobile, keep the pause if selected
+            } else if (window.innerWidth > 768 && isHovered) {
+                // On desktop, manage hover state
+            }
+        });
+    </script>
+
+</body>
+</html>
